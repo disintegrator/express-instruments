@@ -51,13 +51,13 @@ Provides a means to measure time intervals during request handling.
         });
 
         // another way to use it
-        req.mark('timeout');
+        req.mark('timeout:1');
         setTimeout(function() {
-            req.mark('timeout');
+            req.mark('timeout:1');
         }, 2000);
 
         // and yet another
-        var probe = req.mark('timeout');
+        var probe = req.mark('timeout:2');
         setTimeout(probe, 2000);
     });
 
