@@ -1,0 +1,22 @@
+{
+  "name": "express-instruments",
+  "version": "0.0.1",
+  "description": "Middleware that attaches instrumentation utilities to requests/responses in express apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:disintegrator/express-instruments.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "George Haidar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/disintegrator/express-instruments/issues"
+  },
+  "homepage": "https://github.com/disintegrator/express-instruments"
+}
